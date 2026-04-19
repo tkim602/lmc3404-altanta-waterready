@@ -320,10 +320,9 @@ h2 { font-size: clamp(2rem, 3.7vw, 3.3rem); }
 .comparison-copy p { color: var(--muted); }
 
 .split-panel {
-  display: grid;
-  grid-template-columns: 1.08fr 0.92fr;
+  display: flex;
   gap: 24px;
-  align-items: center;
+  flex-direction: column;
 }
 .narrow { max-width: 62ch; }
 .faq-stack details {
