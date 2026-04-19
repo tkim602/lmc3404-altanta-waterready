@@ -361,11 +361,11 @@ h2 { font-size: clamp(2rem, 3.7vw, 3.3rem); }
   gap: 24px;
 }
 .poster-intro { max-width: 68ch; color: var(--muted); }
-.poster-frame { padding: 18px; }
+.poster-frame { padding: 18px;
+max-width: 600px;
+margin: 0 auto; }
 .poster-frame img {
   width: 100%;
-  max-height: 60vh;
-  object-fit: contain;
   border-radius: 18px;
 }
 .poster-notes h3 { margin-top: 0; }
