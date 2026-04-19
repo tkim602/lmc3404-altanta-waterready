@@ -344,6 +344,7 @@ h2 { font-size: clamp(2rem, 3.7vw, 3.3rem); }
 }
 .faq-stack details[open] summary::after { content: "–"; }
 .highlight-card h3 { margin-top: 0; }
+.split-panel .highlight-card { margin-top: 60px; }
 .snapshot-item {
   display: flex;
   justify-content: space-between;
