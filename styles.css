@@ -323,7 +323,7 @@ h2 { font-size: clamp(2rem, 3.7vw, 3.3rem); }
   display: grid;
   grid-template-columns: 1.08fr 0.92fr;
   gap: 24px;
-  align-items: start;
+  align-items: flex-start;
 }
 .narrow { max-width: 62ch; }
 .faq-stack details {
@@ -356,10 +356,9 @@ h2 { font-size: clamp(2rem, 3.7vw, 3.3rem); }
 .snapshot-note { color: var(--muted); margin-top: 16px; }
 
 .poster-layout {
-  display: grid;
-  grid-template-columns: 1.04fr 0.96fr;
+  display: flex;
+  flex-direction: column;
   gap: 24px;
-  align-items: start;
 }
 .poster-intro { max-width: 68ch; color: var(--muted); }
 .poster-frame { padding: 18px; }
