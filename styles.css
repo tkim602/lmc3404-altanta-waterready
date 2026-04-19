@@ -321,7 +321,7 @@ h2 { font-size: clamp(2rem, 3.7vw, 3.3rem); }
 
 .split-panel {
   display: flex;
-  gap: 24px;
+  gap: 12px;
   flex-direction: column;
 }
 .narrow { max-width: 62ch; }
