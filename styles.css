@@ -323,7 +323,7 @@ h2 { font-size: clamp(2rem, 3.7vw, 3.3rem); }
   display: grid;
   grid-template-columns: 1.08fr 0.92fr;
   gap: 24px;
-  align-items: flex-start;
+  align-items: center;
 }
 .narrow { max-width: 62ch; }
 .faq-stack details {
